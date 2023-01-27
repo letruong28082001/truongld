@@ -645,19 +645,8 @@ select{
 
 
 .icon_load_up{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    filter: drop-shadow(-3px 0 25px rgba(16,19,44,0.1));
-    background-color: #ffffff;  
+    display: none;
 }
-
-.icon_loadup{
-    font-size: 50px;
-    color: #10132c;
-    font-family: "Font Awesome";
-}
-
 .footer_content_item {
     display: flex;
     img {

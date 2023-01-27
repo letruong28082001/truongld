@@ -91,7 +91,7 @@
         display: block !important;
         bottom: 40% !important;
         right: 30%;
-        top: 276px;
+        top: 275px;
     }
 
     .search_header {
@@ -632,6 +632,14 @@
         }
     }
 
+    .icon_load_up{
+        display: block;
+        position: absolute;
+    left: 65.5%;
+    top: 73%;
+    z-index: 1;
+    }
+
 }
 
 @media screen and (min-width:300px)and (max-width:369px) {
@@ -1056,7 +1064,7 @@
     }
 }
 
-@media screen and (min-width:415px) and (max-width: 1079px) {
+@media screen and (min-width:415px) and (max-width: 1261px) {
     #footer {
         height: 771px;
 
