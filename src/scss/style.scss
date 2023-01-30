@@ -641,11 +641,14 @@ select{
     align-items: center;
     justify-content: center;
     background-color:  rgba($color: #222020, $alpha: 0.051);
+    position: relative;
 }
-
-
-.icon_load_up{
-    display: none;
+.icon_load_up {
+    display: block;
+    position: absolute;
+    margin-right: -82.5%;
+    top: -84.5%;
+    z-index: 1;
 }
 .footer_content_item {
     display: flex;
@@ -902,4 +905,3 @@ select{
         color: #fff;
     }
 }
-
