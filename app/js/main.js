@@ -1,0 +1,1 @@
+$(".slidessd").slick({infinite:!0,slidesToShow:1,slidesToScroll:1});
